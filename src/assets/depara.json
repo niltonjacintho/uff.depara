@@ -1,45 +1,429 @@
 [
     {
-        "variaveis": "idade",
-        "Perguntas": "Qual é a sua faixa etária?",
+        "variaveis": "etapa0_1_1",
+        "Perguntas": "Nome do Monitor",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa0_1_2",
+        "Perguntas": "Data da visita",
+        "Respostas": []
+    },
+    {
+        "variaveis": "bloco1_3_1",
+        "Perguntas": "Número do processo:",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa0_entidade",
+        "Perguntas": "Nome da entidade:",
+        "Respostas": []
+    },
+    {
+        "variaveis": "bloco1_5",
+        "Perguntas": "1.5. É uma instituição sem ﬁns lucrativos?",
         "Respostas": [
             {
-                "valor": 0,
-                "texto": "Menor de 18 anos"
-            },
-            {
                 "valor": 1,
-                "texto": "Entre 18 e 24 anos"
+                "texto": "Sim"
             },
             {
                 "valor": 2,
-                "texto": "Entre 25 e 34 anos"
-            },
-            {
-                "valor": 3,
-                "texto": "35 anos ou mais"
+                "texto": "Não"
             }
         ]
     },
     {
-        "variaveis": "estado_civil",
-        "Perguntas": "Qual é o seu estado civil?",
+        "variaveis": "bloco1_6",
+        "Perguntas": "Endereço:",
+        "Respostas": []
+    },
+    {
+        "variaveis": "bloco1_6_1_resposta",
+        "Perguntas": "Ponto de referência:",
+        "Respostas": []
+    },
+    {
+        "variaveis": "bloco1_6_1",
+        "Perguntas": "1.6.1. Ponto de referência:",
+        "Respostas": []
+    },
+    {
+        "variaveis": "bloco1_7",
+        "Perguntas": "Município / Estado:",
+        "Respostas": []
+    },
+    {
+        "variaveis": "bloco1_8",
+        "Perguntas": "Telefone:",
+        "Respostas": []
+    },
+    {
+        "variaveis": "bloco1_9",
+        "Perguntas": "Email:",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa1_1",
+        "Perguntas": "1. Os acolhidos têm conhecimento sobre a existência de ﬁnanciamento do poder público para as comunidades terapêuticas::",
         "Respostas": [
             {
-                "valor": 0,
-                "texto": "Solteiro(a)"
-            },
-            {
                 "valor": 1,
-                "texto": "Casado(a)"
+                "texto": "Todos os acolhidos têm conhecimento sobre a existência de ﬁnanciamento do poder público para as comunidades terapêuticas"
             },
             {
                 "valor": 2,
-                "texto": "Divorciado(a)"
+                "texto": "A maioria dos acolhidos têm conhecimento sobre a existência de ﬁnanciamento do poder público para as comunidades terapêuticas"
             },
             {
                 "valor": 3,
-                "texto": "Viúvo(a)"
+                "texto": "Uma minoria de acolhidos têm conhecimento sobre a existência de ﬁnanciamento do poder público para as comunidades terapêuticas"
+            },
+            {
+                "valor": 4,
+                "texto": "Nenhum acolhido têm conhecimento sobre a existência de ﬁnanciamento do poder público para as comunidades terapêuticas"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_2",
+        "Perguntas": "2. Os acolhidos estão na Entidade de forma voluntária?",
+        "Respostas": [
+            {
+                "valor": 1,
+                "texto": "Todos os acolhidos estão na Entidade de forma voluntária"
+            },
+            {
+                "valor": 2,
+                "texto": "A maioria dos acolhidos estão na Entidade de forma voluntária"
+            },
+            {
+                "valor": 3,
+                "texto": "Uma minoria de acolhidos estão na Entidade de forma voluntária"
+            },
+            {
+                "valor": 4,
+                "texto": "Nenhum acolhido estão na Entidade de forma voluntária"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_3",
+        "Perguntas": "3. Os acolhidos participam da elaboração do PAS/PIA?",
+        "Respostas": [
+            {
+                "valor": 1,
+                "texto": "Todos os acolhidos participam/participaram da elaboração do PAS/PIA"
+            },
+            {
+                "valor": 2,
+                "texto": "A maioria dos acolhidos participam/participaram da elaboração do PAS/PIA"
+            },
+            {
+                "valor": 3,
+                "texto": "Uma minoria de acolhidos participam/participaram da elaboração do PAS/PIA"
+            },
+            {
+                "valor": 4,
+                "texto": "Nenhum acolhido participam/participaram da elaboração do PAS/PIA"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_3_1",
+        "Perguntas": "3.1. Anote considerações, o que foi falado pelos acolhidos?",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa1_3_1_anotacoes",
+        "Perguntas": "3.1. Anote considerações, o que foi falado pelos acolhidos?",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa1_4",
+        "Perguntas": "4. Os acolhidos conhecem as normas e regulamentos da entidade?",
+        "Respostas": [
+            {
+                "valor": 1,
+                "texto": "Todos os acolhidos conhecem as normas e regulamentos da entidade"
+            },
+            {
+                "valor": 2,
+                "texto": "A maioria dos acolhidos conhecem as normas e regulamentos da entidade"
+            },
+            {
+                "valor": 3,
+                "texto": "Uma minoria de acolhidos conhecem as normas e regulamentos da entidade"
+            },
+            {
+                "valor": 4,
+                "texto": "Nenhum acolhido conhecem as normas e regulamentos da entidade"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_5",
+        "Perguntas": "5. O que acontece quando alguma norma é quebrada na CT?",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa_1_5_1_resposta",
+        "Perguntas": "5. O que acontece quando alguma norma é quebrada na CT?",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa_1_5_1",
+        "Perguntas": "5.1. Existe algum tipo de punição coletiva quando alguma norma é quebrada na CT?",
+        "Respostas": [
+            {
+                "valor": 1,
+                "texto": "Sim"
+            },
+            {
+                "valor": 2,
+                "texto": "Não"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_5_2",
+        "Perguntas": "Qual a punição?",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa1_5_2_resposta",
+        "Perguntas": "Qual a punição ?",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa1_6",
+        "Perguntas": "6. Foi exigido bens ou contrapartida ﬁnanceira ao acolhido que tem ﬁnanciamento do poder público?",
+        "Respostas": [
+            {
+                "valor": 0,
+                "texto": "Todos os acolhidos que tem ﬁnanciamento do poder público dão uma contrapartida financeira à CT e não é doação"
+            },
+            {
+                "valor": 1,
+                "texto": "A maioria dos acolhidos que tem ﬁnanciamento do poder público dão uma contrapartida financeira à CT e não é doação"
+            },
+            {
+                "valor": 2,
+                "texto": "Nenhum acolhido que tem ﬁnanciamento do poder público dão uma contrapartida financeira à CT e não é doação"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_7",
+        "Perguntas": "7. Entre os acolhidos que têm financiamento do poder público para permanecerem na CT existem aqueles que doam financeiramente de maneira voluntária para a CT?",
+        "Respostas": [
+            {
+                "valor": 0,
+                "texto": "Todos os acolhidos que tem ﬁnanciamento do poder público doam voluntariamente financeiramente para a CT"
+            },
+            {
+                "valor": 1,
+                "texto": "A maioria dos acolhidos que tem ﬁnanciamento do poder público doam voluntariamente financeiramente para a CT"
+            },
+            {
+                "valor": 2,
+                "texto": "Uma minoria de acolhidos que tem ﬁnanciamento do poder público doam voluntariamente financeiramente para a CT"
+            },
+            {
+                "valor": 3,
+                "texto": "Nenhum acolhido que tem ﬁnanciamento do poder público doam voluntariamente financeiramente para a CT"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_8",
+        "Perguntas": "8. Sobre a qualidade da alimentação e quantidade das refeições?",
+        "Respostas": [
+            {
+                "valor": 0,
+                "texto": "Todos os acolhidos acham a qualidade da alimentação adequada"
+            },
+            {
+                "valor": 1,
+                "texto": "A maioria dos acolhidos acham a qualidade da alimentação adequada"
+            },
+            {
+                "valor": 2,
+                "texto": "Uma minoria de acolhidos acham a qualidade da alimentação adequada"
+            },
+            {
+                "valor": 3,
+                "texto": "Nenhum acolhido acham a qualidade da alimentação adequada"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_9",
+        "Perguntas": "9. Quantas refeições os acolhidos tem por dia:",
+        "Respostas": [
+            {
+                "valor": 0,
+                "texto": "Menos de 2 refeições"
+            },
+            {
+                "valor": 1,
+                "texto": "2 refeições"
+            },
+            {
+                "valor": 2,
+                "texto": "3 refeições"
+            },
+            {
+                "valor": 3,
+                "texto": "4 refeições"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_10",
+        "Perguntas": "10. Sobre a quantidade das refeições:",
+        "Respostas": [
+            {
+                "valor": 0,
+                "texto": "Todos os acolhidos acham a quantidade da alimentação adequada"
+            },
+            {
+                "valor": 1,
+                "texto": "A maioria dos acolhidos acham a quantidade da alimentação adequada"
+            },
+            {
+                "valor": 2,
+                "texto": "Uma minoria de acolhidos acham a quantidade da alimentação adequada"
+            },
+            {
+                "valor": 3,
+                "texto": "Nenhum acolhido acham a quantidade da alimentação adequada"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_11",
+        "Perguntas": "11. Os acolhidos em algum momento já saíram para vender em vias públicas algum produto para entidade?",
+        "Respostas": [
+            {
+                "valor": 0,
+                "texto": "Todos os acolhidos em algum momento já saíram para vender em vias públicas algum produto para entidade"
+            },
+            {
+                "valor": 1,
+                "texto": "A maioria dos acolhidos em algum momento já saíram para vender em vias públicas algum produto para entidade"
+            },
+            {
+                "valor": 2,
+                "texto": "Uma minoria de acolhidos em algum momento já saíram para vender em vias públicas algum produto para entidade"
+            },
+            {
+                "valor": 3,
+                "texto": "Nenhum acolhido saiu para vender em vias públicas algum produto para entidade"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_12_1",
+        "Perguntas": "12. Os acolhidos em algum momento já saíram da entidade para executar serviços particulares (pedreiro, limpeza de casas, etc.)?",
+        "Respostas": [
+            {
+                "valor": 0,
+                "texto": "Todos os acolhidos em algum momento já saíram da entidade para executar serviços particular"
+            },
+            {
+                "valor": 1,
+                "texto": "A maioria dos acolhidos em algum momento já saíram da entidade para executar serviços particular"
+            },
+            {
+                "valor": 2,
+                "texto": "Uma minoria de acolhidos em algum momento já saíram da entidade para executar serviços particular"
+            },
+            {
+                "valor": 3,
+                "texto": "Nenhum acolhido em algum momento já saíram da entidade para executar serviços particular"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_12_2",
+        "Perguntas": "Teve previsão no PIA?",
+        "Respostas": [
+            {
+                "valor": 0,
+                "texto": "Sim"
+            },
+            {
+                "valor": 1,
+                "texto": "Não"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_12_3",
+        "Perguntas": "Algum acolhido saiu para executar serviços em vias públicas? Se sim, anote considerações!",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa1_12_3_consideracoes",
+        "Perguntas": "Algum acolhido saiu para executar serviços em vias públicas? Se sim, anote considerações!",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa1_13",
+        "Perguntas": "13. Os acolhidos em algum momento já foram contidos fisicamente ou por medicamentos?",
+        "Respostas": [
+            {
+                "valor": 0,
+                "texto": "Sempre"
+            },
+            {
+                "valor": 1,
+                "texto": "Frequentemente"
+            },
+            {
+                "valor": 2,
+                "texto": "As vezes"
+            },
+            {
+                "valor": 3,
+                "texto": "Raramente"
+            },
+            {
+                "valor": 4,
+                "texto": "Nunca"
+            }
+        ]
+    },
+    {
+        "variaveis": "etapa1_14",
+        "Perguntas": "Algum acolhido já foi contido fisicamente ou por medicamento? Se sim, anote considerações.",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa1_14_1",
+        "Perguntas": "Algum acolhido já foi contido fisicamente ou por medicamento? Se sim, anote considerações.",
+        "Respostas": []
+    },
+    {
+        "variaveis": "etapa1_15",
+        "Perguntas": "14. Os acolhidos recebem atendimento psicológico?",
+        "Respostas": [
+            {
+                "valor": 0,
+                "texto": "Todos os acolhidos recebem atendimento psicológico"
+            },
+            {
+                "valor": 1,
+                "texto": "A maioria dos acolhidos recebem atendimento psicológico"
+            },
+            {
+                "valor": 2,
+                "texto": "Uma minoria de acolhidos recebem atendimento psicológico"
+            },
+            {
+                "valor": 3,
+                "texto": "Nenhum acolhido recebem atendimento psicológico"
             }
         ]
     }

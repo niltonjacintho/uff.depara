@@ -27,4 +27,13 @@ export class BaseDadosService {
             Resposta: resposta.texto,
         };
     }
+
+    findQuestionByValue(valor: string) {
+        const resposta = this.data.find((r) => { console.log(r); return r.variaveis == valor });
+        if (resposta) {
+            return resposta.Perguntas;
+        } else {
+            return { error: 'Valor não encontrado para a variável' };
+        }
+    }
 }

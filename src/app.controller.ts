@@ -17,4 +17,14 @@ export class AppController {
 
     return this.bdService.findResponse(variavel, valorNumber);
   }
+
+  @Get('get-question')
+  getQuestion(@Query('valor') valor: string) {
+    // const valorNumber = parseInt(valor, 10);
+    // if (isNaN(valorNumber)) {
+    //   return { error: 'O valor deve ser um número' };
+    // }
+
+    return this.bdService.findQuestionByValue(valor);
+  }
 }
