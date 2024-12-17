@@ -1,14 +1,31 @@
 import { Injectable } from '@nestjs/common';
 import * as fs from 'fs';
 import * as path from 'path';
+import * as csv from 'csv-parser';
+import { CsvService } from 'src/csv/csv.service';
+// import { DeParaDto, RespostaDto } from './../base.dto';
 
 @Injectable()
 export class BaseDadosService {
-    private readonly data: any[];
-    constructor() {
-        // Carregar o arquivo JSON na inicialização
-        const filePath = path.join(__dirname, '../../../src/assets/depara.json');
-        this.data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    private data: any[];
+    private data2: any[];
+    constructor(private readonly csvService: CsvService) {
+        this.initialize();
+    }
+
+    private async initialize() {
+        const filePath = path.join(__dirname, '../../../src/assets/depara.csv');
+        await this.csvService.processarCsv(filePath).then((data) => {
+            console.log('voltou', data);
+            this.data = data;
+            console.log('Data carregada:', data.length, data[0]);
+            for (let i = 0; i < data.length; i++) {
+                console.log(data[i]);
+                for (let j = 0; j < data[i].Respostas.length; j++) {
+                    console.log(data[i].Respostas[j]);
+                }
+            }
+        })
     }
 
     findResponse(variavel: string, valor: number) {
@@ -23,8 +40,8 @@ export class BaseDadosService {
         }
 
         return {
-            Pergunta: item.Perguntas,
-            Resposta: resposta.texto,
+            pergunta: item.Perguntas,
+            resposta: resposta.texto,
         };
     }
 
